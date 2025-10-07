@@ -1,0 +1,13 @@
+{
+    "@id": "dtmi:example:Hospital;1",
+    "@type": "Interface",
+    "@context": "dtmi:dtdl:context;2",
+    "@displayname": "Hospital",
+    "contents": [
+        {
+            "@type": "Relationship",
+            "name": "hasPatientRoom",
+            "target": "dtmi:example:PatientRoom;1"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "@id": "dtmi:example:PatientRoom;1",
+    "@type": "Interface",
+    "@context": "dtmi:dtdl:context;2",
+    "@displayname": "Patient room",
+    "contents": [
+        {
+            "@type": "Relationship",
+            "name": "hasTemperatureSensor",
+            "target": "dtmi:example:TemperatureSensor;1"
+        },
+        {
+            "@type": "Relationship",
+            "name": "hasHumiditySensorSensor",
+            "target": "dtmi:example:HumiditySensor;1"
+        }
+    ]
+}
